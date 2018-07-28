@@ -30,7 +30,7 @@ time.sleep(5)
 # 将文本中的词语转换为词频矩阵 矩阵元素a[i][j] 表示j词在i类文本下的词频
 vectorizer = CountVectorizer()
 
-# 该类会统计每个词语的tf-idf权值
+# 该类会统计每个词语的tf-idf权
 transformer = TfidfTransformer()
 
 # 第一个fit_transform是计算tf-idf 第二个fit_transform是将文本转为词频矩阵
